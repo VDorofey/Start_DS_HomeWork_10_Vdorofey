@@ -1,7 +1,7 @@
 # Start_DS_HomeWork_10_Vdorofey
  HomeWork_10. Streamlit_project_Dorofeeva_Viktoriya
  
-This project demonstrates solution as a web application using Streamlit framework. 
+This project demonstrates medical conclutions as a web application using Streamlit framework. 
 
 The data used in this repo is the __Indian Liver Patient Record__ dataset from __Kaggle__.
 
