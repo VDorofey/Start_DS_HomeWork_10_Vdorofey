@@ -9,7 +9,7 @@ https://www.kaggle.com/competitions/indian-patient-si359/overview
 
 __Files__:
 
-`app.py`: streamlit app file
+`app_IndianPatient.py`: streamlit app file
 
 `Indian Liver Patient Record.csv` : data file 
 
