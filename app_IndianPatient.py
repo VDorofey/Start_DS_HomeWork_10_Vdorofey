@@ -67,24 +67,23 @@ def process_side_bar_inputs():
 def sidebar_input_features():
     Gender = st.sidebar.selectbox("Пол", ("Мужской", "Женский"))
    
-    Age = st.sidebar.slider("Возраст", Age_min, Age_max, 20, 1)
+    Age = st.sidebar.slider("Возраст", 4, 90, 20, 1)
 
-    #Total_Bilirubin = st.slider("Общий билирубин", min_value=Total_Bilirubin_min, max_value=Total_Bilirubin_max, value=Total_Bilirubin_min + 1.0, step=0.1)
+    Total_Bilirubin = st.sidebar.slider("Общий билирубин", min_value=0.4, max_value=75.0, value=1.0, step=0.1)
 
-    #Direct_Bilirubin = st.sidebar.slider("Прямой билирубин", min_value=Direct_Bilirubin_min, max_value=Direct_Bilirubin_max, value=Direct_Bilirubin_min + 0.5, step=0.1)
+    Direct_Bilirubin = st.sidebar.slider("Прямой билирубин", min_value=0.1, max_value=19.7, value=0.5, step=0.1)
 
-    #Alkaline_Phosphotase = st.sidebar.slider("Щелочная фосфотаза", min_value=Alkaline_Phosphotase_min, max_value=Alkaline_Phosphotase_max, value=Alkaline_Phosphotase_min + 70, step=1)
+    Alkaline_Phosphotase = st.sidebar.slider("Щелочная фосфотаза", min_value=63, max_value=2110, value=70, step=1)
 
-    #Alamine_Aminotransferase = st.sidebar.slider("АЛТ", min_value=Alamine_Aminotransferase_min, max_value=Alamine_Aminotransferase_max, value=Alamine_Aminotransferase_min + 20, step=1)
+    Alamine_Aminotransferase = st.sidebar.slider("АЛТ", min_value=10, max_value=2000, value=20, step=1)
     
-    #Aspartate_Aminotransferase = st.sidebar.slider("АСТ",min_value=Aspartate_Aminotransferase_min, max_value=Aspartate_Aminotransferase_max, value=Aspartate_Aminotransferase_min + 20, step=1)
+    Aspartate_Aminotransferase = st.sidebar.slider("АСТ",min_value=10, max_value=4929, value=20, step=1)
 
+    Total_Protiens = st.sidebar.slider("Общий белок",min_value=2.7, max_value=9.6, value=3.0, step=0.1)
 
-    #Total_Protiens = st.sidebar.slider("Общий белок",min_value=Total_Protiens_min, max_value=Total_Protiens_max, value=Total_Protiens_min + 3.0, step=0.1)
+    Albumin = st.sidebar.slider("Альбумин",min_value=0.9, max_value=5.5, value=1.0, step=0.1)
 
-    # Albumin = st.sidebar.slider("Альбумин",min_value=Albumin_min, max_value=Albumin_max, value=Albumin_min + 1.0, step=0.1)
-
-   #Albumin_and_Globulin_Ratio = st.sidebar.slider("Соотношение Альбумин/Глобулин",min_value=Albumin_and_Globulin_Ratio_min, max_value=Albumin_and_Globulin_Ratio_max, value=Albumin_and_Globulin_Ratio_min + 0.5, step=0.1)
+    Albumin_and_Globulin_Ratio = st.sidebar.slider("Соотношение Альбумин/Глобулин",min_value=0.3, max_value=2.8, value=0.5, step=0.1)
 
     translatetion = {
         "Мужской": "Муж",
