@@ -16,3 +16,7 @@ __Files__:
 `requirements.txt`: package requirements files
 
 `logo.jpg` : picture
+
+__Project on Streamlit Cloud__
+
+https://startdshomework10vdorofey-bqjcvx8ivwwlqmnnscplxe.streamlit.app/
