@@ -67,7 +67,7 @@ def process_side_bar_inputs():
 def sidebar_input_features():
     Gender = st.sidebar.selectbox("Пол", ("Мужской", "Женский"))
    
-    Age = st.sidebar.slider("Возраст", min_value=Age_min, max_value=Age_max, value=Age_min + 20, step=1)
+    # Age = st.sidebar.slider("Возраст", min_value=Age_min, max_value=Age_max, value=Age_min + 20, step=1)
 
     Total_Bilirubin = st.sidebar.slider("Общий билирубин",
         min_value=Total_Bilirubin_min, max_value=Total_Bilirubin_max, value=Total_Bilirubin_min + 1.0, step=0.1)
