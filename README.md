@@ -13,4 +13,4 @@ __Files__:
 
 `requirements.txt`: package requirements files
 
-`logo.jpeg` : picture
+`logo.jpg` : picture
