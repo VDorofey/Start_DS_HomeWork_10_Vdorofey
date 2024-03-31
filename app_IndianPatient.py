@@ -6,7 +6,6 @@ def process_main_page():
     show_main_page()
     process_side_bar_inputs()
 
-
 def show_main_page():
     image = Image.open('logo.jpg')
 
@@ -15,14 +14,12 @@ def show_main_page():
         initial_sidebar_state="auto",
         page_title="Indian Patient",
         page_icon=image,
-
     )
 
     st.write(
         """
         # Определение наличия заболеваний печени у индийского пациента
         Определяем тех, кто страдает от заболевания печени, а кто - нет
-        
         """
     )
 
